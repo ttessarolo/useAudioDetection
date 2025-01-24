@@ -15,3 +15,5 @@ export default function useSpeechDetector(params, config) {
 
   return detectorRef;
 }
+
+export { default as useAudioDetection } from "./lib/useAudioDetection";

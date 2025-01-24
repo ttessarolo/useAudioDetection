@@ -2,6 +2,10 @@
 
 `useAudioDetection` is a React library that provides a hook for detecting audio and speech using the Web Audio API. It is useful for applications that require speech detection, such as voice assistants or voice recorders.
 
+## References
+
+_This package is based on the original work of Giorgio Robino (https://github.com/solyarisoftware) WeBAD, which can be found in this repository: https://github.com/solyarisoftware/WeBAD. The audioWorklet used to detect audio signal is AudioVolumeMeterProcessor Copyright (c) 2022 The Chromium Authors (https://github.com/GoogleChromeLabs/web-audio-samples/tree/main/src/audio-worklet/basic/volume-meter/)_
+
 ## Installation
 
 You can install the library via npm:
